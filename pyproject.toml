@@ -1,0 +1,18 @@
+[project]
+name = "tagore-auto-analysis"
+version = "0.1.0"
+description = "Auto-research agent for discovering insights in Rabindranath Tagore's song corpus"
+requires-python = ">=3.11"
+dependencies = [
+    "datasets",
+    "pandas",
+    "numpy",
+    "scipy",
+    "scikit-learn",
+    "matplotlib",
+    "seaborn",
+    "umap-learn",
+    "xgboost",
+    "deep-translator>=1.11.4",
+    "sentence-transformers>=5.3.0",
+]
