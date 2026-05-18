@@ -1,0 +1,14 @@
+Puja vs Prem pronoun ratio (1st/2nd) — temporal decomposition
+============================================================
+Combined raw Spearman: rho=0.1107, p=3.80e-04
+Partial Spearman (Puja/Prem-controlled): rho=0.0747, p=1.67e-02 (attenuation 32.5%)
+
+  Puja: rho=0.1652 (p=3.29e-05), n=626
+  Prem: rho=-0.0413 (p=4.10e-01), n=400
+
+Counterfactual reweighting (Puja/Prem only):
+  observed_early=0.702
+  observed_late=1.164
+  cf_late_with_early_mix=1.124
+  pct_within_category=91.3
+  pct_mix=8.7

@@ -1,0 +1,17 @@
+Pronoun ratio (1st/2nd) — temporal decomposition
+============================================================
+Overall raw Spearman: rho=0.0689, p=1.01e-03
+Partial Spearman (category-controlled): rho=0.0379, p=1.11e-01 (attenuation 32.7%)
+
+  পূজা: rho=0.1652 (p=3.29e-05), n=626
+  প্রেম: rho=-0.0413 (p=4.10e-01), n=400
+  গীতিনাট্য ও নৃত্যনাট্য: rho=0.0554 (p=3.28e-01), n=314
+  প্রকৃতি: rho=-0.0931 (p=1.13e-01), n=290
+  বিচিত্র: rho=-0.1486 (p=7.35e-02), n=146
+
+Counterfactual reweighting:
+  observed_early=0.763
+  observed_late=1.134
+  cf_late_with_early_mix=1.177
+  pct_within_category=111.6
+  pct_mix=-11.6
